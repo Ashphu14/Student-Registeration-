@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #5397ae;
+  
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 3px solid #080505;
+  border-radius: 15px;
+  flex: auto;
+  
+}
+.container-1 {
+  background-image: url('back.avif'); /* Path to your image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  padding: 20px;
+  position: relative;
+  isolation: isolate;
+  background-position: top 40%  left 80%;
+  padding-bottom: 21%;
+  border-radius: 15px;
+  border: 5px solid #a6cae2;
+}
+h2{
+  color: #0d100d;
+}
+
+ 
+
+/* Add other styles as needed */
+
+
+input[type="text"], input[type="number"] {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+button {
+  padding: 10px 20px;
+  background-color: #a45489;
+  color: rgb(243, 243, 243);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color:  #c53333;
+  left: 0;
+  transition: 0.5s;
+}
+.student-list-container {
+  max-height: 300px; /* Adjust as needed */
+  overflow-y: auto;
+}
+.student-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.student-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #c9dee1;
+  border-radius: 4px;
+  border: 1px solid #000000;
+}
+.student-list li:last-child {
+  margin-bottom: 0;
+}
+.edit-btn, .delete-btn {
+  padding: 5px 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.edit-btn:hover, .delete-btn:hover {
+  background-color: #005f7f;
+}
+ 
+
+     
+ 
+
